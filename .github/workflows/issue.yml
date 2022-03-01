@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2 #  Check out the repository, so it can read the files it and do other operations
       - name: Generate README
-        uses: bxb100/issueblog@V1.0.10 # Prefer to use the latest version
+        uses: bxb100/issueblog@v1.0.10 # Prefer to use the latest version
         with:
           # Define the README.md header content
           md_header: "## Public Notes"
